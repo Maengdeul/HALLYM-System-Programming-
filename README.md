@@ -1,5 +1,5 @@
 # HALLYM[System Programming]
-Term Project : 1:N Async Chatting by C (with 허재웅)
+Term Project : 1:N Async Chatting by C (with 허재웅(Hallym University SmartIoT))
 
 ------------------------------------------------------------------------------
 
@@ -19,7 +19,9 @@ Reference : http://ftp.linux.co.kr/pub/DOCS/Linux_Network_&_System_Programming%B
 
 Use SHA-256 algorithm to encrypt the admin's password
 
-If participate chatting room as admin, he/she has authority which can kick other users
+Someone who open the server can login as Admin
+
+Admin can kick other users who talk aggressively
 
 
 
