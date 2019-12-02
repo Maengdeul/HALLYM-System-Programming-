@@ -25,4 +25,4 @@ If participate chatting room as admin, he/she has authority which can kick other
 
 Reference : http://blog.naver.com/PostView.nhn?blogId=ultract2&logNo=110167519084
 
------------------------------------------------------------------------------- 2019.12.01
+------------------------------------------------------------------------------ 2019.12.02
