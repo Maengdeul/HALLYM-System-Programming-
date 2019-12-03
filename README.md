@@ -2,9 +2,9 @@
 # Term Project
 # 1:N Async Chatting by C
 
-강동우 : 암호화 알고리즘 적용 & 채팅 서버, 클라이언트 개발
+강동우 : Applicate encrypt algorithm to program and delvelop chatting server and client
 
-허재웅 : 채팅 서버, 클라이언트 개발
+허재웅 : Develop chatting server and client
 
 ------------------------------------------------------------------------------
 
