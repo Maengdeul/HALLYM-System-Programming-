@@ -13,14 +13,14 @@ char *escapechar = "exit";
 char name[10];
 
 int main(int argc, char *argv[]) {
-	char line[MAXLINE], msg[MAXLINE + 1];
+	char line[MAXLINE], msg[MAXLINE + 1], checklogin[256] = "Login as",buf[MAXLINE];
 	int n, pid;
 	struct sockaddr_in server_addr;
 	int maxfdp1;
 	int s;
 	fd_set read_fds;
 
-	if (argc != 4) {
+	if (!(argc == 4 || argc == 5)) {
 		printf("사용법 : %s server_IP port name\n", argv[0]);
 		exit(0);
 	}
@@ -41,8 +41,21 @@ int main(int argc, char *argv[]) {
 		printf("서버에 접속할 수 없음\n");
 		exit(0);
 	}
-	else
+	else {
 		printf("서버 접속 성공\n");
+		send(s, argv[3], MAXLINE, 0);  //send name
+		if(argc == 5) {
+			send(s, checklogin, MAXLINE, 0); //send login message
+			send(s, argv[4], MAXLINE, 0);  //send password
+			recv(s, checklogin, MAXLINE, 0);  //receive login message
+			printf("%s\n", checklogin);
+		}
+		else {
+			printf("서버 접속 성공\n");
+			send(s, "wrong password",MAXLINE, 0);
+			recv(s, checklogin, MAXLINE, 0);
+		}
+	}
 
 	maxfdp1 = s + 1;
 	FD_ZERO(&read_fds);
