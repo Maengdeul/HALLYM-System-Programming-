@@ -28,6 +28,8 @@ Someone who open the server can login as Admin
 
 Admin can kick other users who talk aggressively
 
+Admin including users can see the list who participating chatting room
+
 
 
 Reference : http://blog.naver.com/PostView.nhn?blogId=ultract2&logNo=110167519084
