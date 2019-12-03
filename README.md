@@ -36,3 +36,32 @@ Reference : http://blog.naver.com/PostView.nhn?blogId=ultract2&logNo=11016751908
 
 ------------------------------------------------------------------------------ 2019.12.02
 
+# How to use it
+
+If you want to open the server
+./server port password
+
+If you want to join the chatting room
+./client IPaddress port name password
+
+When you want to see the list who participating chatting room
+/list
+
+When you want to kick someone who talk aggressively(ONLY Admin)
+/kick name
+
+------------------------------------------------------------------------------
+
+# Why do we need this?
+
+So many people using KakaoTalk,
+but we can't know whether they save our messages
+and there are so many advertisements in KakaoTalk program
+
+BUT this program
+- There is no advertisement
+- Anyone can open the server
+- Share the password with friends or organizations before the open the server
+- Password will protected by SHA256
+- Server does not save the messages at all
+- Easy to management
