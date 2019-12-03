@@ -1,5 +1,9 @@
 # HALLYM[System Programming]
-Term Project : 1:N Async Chatting by C (with 허재웅(Hallym University SmartIoT))
+# Term Project
+# 1:N Async Chatting by C
+
+강동우 : 암호화 알고리즘 적용 & 채팅 서버, 클라이언트 개발
+허재웅 : 채팅 서버, 클라이언트 개발
 
 ------------------------------------------------------------------------------
 
@@ -28,3 +32,4 @@ Admin can kick other users who talk aggressively
 Reference : http://blog.naver.com/PostView.nhn?blogId=ultract2&logNo=110167519084
 
 ------------------------------------------------------------------------------ 2019.12.02
+
